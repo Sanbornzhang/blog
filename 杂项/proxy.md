@@ -26,6 +26,7 @@ echo '{
 '>/etc/shadowsocks-libev/config.json
 service shadowsocks-libev restart
 ```
+<!--more--> 
 ### client
 - linux 
 ```

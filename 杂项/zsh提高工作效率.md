@@ -10,6 +10,7 @@ tags:
 [ZSH Github](https://github.com/robbyrussell/oh-my-zsh)
 1. 安装zsh  
    `apt-get install zsh`
+<!--more--> 
 2. 通过安装脚本安装`Oh-my-zsh`
    - `wget`安装  
    `wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh`

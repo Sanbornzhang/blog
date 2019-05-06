@@ -22,6 +22,7 @@ Usage: tcpdump [-aAbdDefhHIJKlLnNOpqStuUvxX#] [ -B size ] [ -c count ]
                 [ -w file ] [ -W filecount ] [ -y datalinktype ] [ -z postrotate-command ]
                 [ -Z user ] [ expression ]
 ```
+<!--more--> 
 ### 筛选方式
 - -b : buffer_size 抓包的大小。
 - -c : 指定要抓取的包数量。

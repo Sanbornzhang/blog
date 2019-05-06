@@ -21,6 +21,7 @@ Event loop是一种程序结构，是实现异步的一种机制。Event loop可
 3. 一旦"执行栈"中的所有任务执行完毕，系统就会读取"任务队列"。如果这个时候，异步任务已经结束了等待状态，就会从"任务队列"进入执行栈，恢复执行。
 
 主线程不断重复上面的第三步。
+<!--more--> 
 > REF: [What the heck is the event loop anyway?](https://2014.jsconf.eu/speakers/philip-roberts-what-the-heck-is-the-event-loop-anyway.html)
 ## 事件轮询机制解析
 官方的事件循环机制解析图

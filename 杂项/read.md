@@ -10,6 +10,7 @@ tags:
 ## Kubernetes
 1. [Kubernetes DNS优化](https://mp.weixin.qq.com/s/IGrUZLMvK8UppZTqt9bbSA)
 2. [1.14 Release Note](https://mp.weixin.qq.com/s/N6dC1S1Ezhh_-cFIbFScgQ)
+<!--more--> 
 3. [Prometheus 监控框架](https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&mid=2650166781&idx=1&sn=dd6f5ce36e916c4938f78694df5f4a6b&chksm=8ec1c9b4b9b640a2df8535b1dc42e7548c0a3f8ecb585ccb79b0769f8c8ddce0abc73205408b)
 4. [Prometheus 监控部署](https://mp.weixin.qq.com/s/rG1_DqjBjisuhQJNi9U7iA)
 5. [Pod 间实现共享内存的解决方案](https://mp.weixin.qq.com/s/W0FpH61r_HM7t8Xw1_Ex6A)
