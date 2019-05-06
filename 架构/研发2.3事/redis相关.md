@@ -1,3 +1,14 @@
+---
+title: Redis 缓存相关以及数据持久化
+date: 2018/7/16
+categories: Redis
+tags: 
+  - Redis 
+  - 缓存穿透
+  - 缓存雪崩
+  - 缓存击穿
+  - Redis数据持久化
+---
 # Redis
 ## 一致性问题
 1. 读请求，先读缓存，如果没有命中，读数据库，再set回缓存

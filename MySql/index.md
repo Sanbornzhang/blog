@@ -2,7 +2,9 @@
 title: Mysql 索引优化总结
 date: 2019/2/25
 categories: Mysql
-tags: Mysql 索引
+tags: 
+  - Mysql 
+  - 索引
 ---
 # 索引
 ## 索引的类型

@@ -1,3 +1,11 @@
+---
+title: 使用zsh提高工作效率
+date: 2019/2/25
+categories: 杂项
+tags: 
+  - 杂项
+  - zsh
+---
 # install 
 [ZSH Github](https://github.com/robbyrussell/oh-my-zsh)
 1. 安装zsh  

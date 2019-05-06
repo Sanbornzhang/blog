@@ -1,3 +1,11 @@
+---
+title: 收藏的一些文章[时时更新]
+date: 2019/2/25
+categories: 杂项
+tags: 
+  - 杂项
+  - 收藏的文章
+---
 # 一些有用的文章
 ## Kubernetes
 1. [Kubernetes DNS优化](https://mp.weixin.qq.com/s/IGrUZLMvK8UppZTqt9bbSA)
