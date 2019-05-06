@@ -27,27 +27,34 @@ tags:
    sudo apt-get install jenkins
    ```
 3. 查看`jenkins`运行情况 
-   ![jenkins service](./images/hexo-jenkins-service.png)
+   ![jenkins service](/images/hexo-jenkins-service.png)
 4. 使用浏览器打开 http://yourIP:8080 
 5. 配置jenkins[建议安装，也可以自己选择。但是之后会使用到`Github Plugin`]
-   ![jenkins plugin](images/hexo-jenkins-github-plugin.png)
+   ![jenkins plugin](/images/hexo-jenkins-github-plugin.png)
 ## 持续部署配置
 1. 在`github.settings.developers.Personal access tokens`设置 [Personal access tokens](https://github.com/settings/developers)
-   ![github token](images/hexo-jenkins-github-token.png)
+   ![github token](/images/hexo-jenkins-github-token.png)
     **保存好**对应的`token`等会需要在`Jenkins`中使用
 2. 在`Github`**对应的项目**中添加`webhook`
-   ![web hook](images/hexo-jenkins-github-webhook1.png)
-   ![web hook](images/hexo-jenkins-github-webhook2.png)
+   ![web hook](/images/hexo-jenkins-github-webhook1.png)
+   ![web hook](/images/hexo-jenkins-github-webhook2.png)
    需要注意的是 `Url` 地址为： `http://yourUrl/github-webhook`,  
    需要http认证就是: `http://username:password@yourUrl/github-webhook`.
 3. `jenkins`配置分为两项全局配置，和项目配置
    - 全局配置：  
      需要在凭据中添加之前的`token`
-    ![jenkins configure](images/hexo-jenkins-configure.png)
+    ![jenkins configure](/images/hexo-jenkins-configure.png)
    - 项目配置
-    ![jenkins project configure](images/hexo-jenkins-project-configure1.png)
-    ![jenkins project configure](images/hexo-jenkins-project-configure2.png)
+    ![jenkins project configure](/images/hexo-jenkins-project-configure1.png)
+    ![jenkins project configure](/images/hexo-jenkins-project-configure2.png)
     >注意 需要确保项目的`Source Code Management.Git.Repositories.Repository URL`和之前在`GitHub`中配置`webhook`的项目一致
+    如过直接是包含`hexo`的整个项目就可以
+    ```
+    npm i 
+    cd them && npm i && cd ../[或者需要配置 git submodule]
+    hexo clean && hexo g
+    cd source && find . -name "*.png" -o -name "*.jpg"|xargs -i cp {} /${website/blog}/public/images/
+    ```
 ### 可能会遇到的问题
 1. 使用了反向代理会出现 `403 error` 这个需要把`Jenkins`安全中的`CSRF`关闭，或者参考[Jenkins -> 403 No valid crumb was included in the request](https://github.com/spinnaker/spinnaker/issues/2067)
 
