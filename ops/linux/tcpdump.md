@@ -35,14 +35,14 @@ Usage: tcpdump [-aAbdDefhHIJKlLnNOpqStuUvxX#] [ -B size ] [ -c count ]
 
 ### 常用的使用方式
 - `tcpdump -i interface`  监听对应网卡的流量
-  ![tcpdump -i](/images/tcpdump-i.png)
-  ![tcpdump -i eth0](/images/tcpdump-i-eth0.png)
+  ![tcpdump -i](images/tcpdump-i.png)
+  ![tcpdump -i eth0](images/tcpdump-i-eth0.png)
 - `tcpdump host hostname` 监听对应`hostname`的所有流量,可以使用 `src`|`dst`指定方向
-  ![tcpdump host](/images/tcpdump-host.png)
+  ![tcpdump host](images/tcpdump-host.png)
 - `tcpdump port portNumber` 监听对应端口的流量
-  ![tcpdump port](/images/tcpdump-port.png)
+  ![tcpdump port](images/tcpdump-port.png)
 - `tcpdump -n -s0 'tcp && dst port 80'` 抓http的包
-  ![tcpdump http](/images/tcpdump-http.png)
+  ![tcpdump http](images/tcpdump-http.png)
 ### 参考
 [tcpdump](http://www.tcpdump.org/)  
 [Linux tcpdump命令](https://www.runoob.com/linux/linux-comm-tcpdump.html)  

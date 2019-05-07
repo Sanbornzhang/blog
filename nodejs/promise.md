@@ -13,7 +13,7 @@ tags:
 ## Promise 
 Promise 对象是 JavaScript 的异步操作解决方案，为异步操作提供统一接口。它起到代理作用（proxy），充当异步操作与回调函数之间的中介，使得异步操作具备同步操作的接口。Promise 可以让异步操作写起来，就像在写同步操作的流程，而不必一层层地嵌套回调函数。
 ### Callback Hell
-![Callback Hell](/images/callback-hell.jpg)
+![Callback Hell](images/callback-hell.jpg)
 <!--more--> 
 > 在使用callback的同时会遇到一些痛点
 - 代码不利于维护以及阅读.
