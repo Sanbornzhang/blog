@@ -65,6 +65,7 @@ Docker 是现代应用平台的核心，是开发人员与 IT 运维、Linux 和
 
 ### Docker的使用规则
     一个容器只运行一个进程，一旦进程退出则容器退出
+
 ### REF
 [A Docker Tutorial for Beginners](https://docker-curriculum.com/) 
 [Best practices for writing Dockerfiles](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
