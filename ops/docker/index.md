@@ -22,7 +22,7 @@ Docker 实际上是对 Linux `namespace`,`Cgroups`,以及 `rootfs`的一种使�
   - 在一台机器上运行的多个 Docker 容器可以共享这台机器的操作系统内核;  
   - 它们能够迅速启动，只需占用很少的计算和内存资源;  
   - 镜像是通过文件系统层进行构造的，并共享一些公共文件。这样就能尽量降低磁盘用量，并能更快地下载镜像;
-  - ![传统的VM以及docker](docker.jpg)
+  - ![docker](images/docker.jpg)
 - 标准  
   Docker 容器基于开放式标准，能够在所有主流 Linux 版本、Microsoft Windows 以及包括 VM、裸机服务器和云在内的任何基础设施上运行.    
   一处构建，到处运行。

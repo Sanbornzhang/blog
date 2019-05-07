@@ -88,6 +88,13 @@ HEALTHCHECK  --interval=5m --timeout=3s \
   + 最小化层数 合并构建代码 apt update && apt install xxx
   + 对多行参数进行排序
   + 合并label标签[<1.0]
+## Docker Run
+`docker run -d -p ${}:${} --name myApp imageAddress`
+### 后台运行
+### 挂载外部磁盘卷
+### 重启策略
+### 资源限制
+### 宿主机转发端口
 ## Docker compose
 ### install docker compose
 ```

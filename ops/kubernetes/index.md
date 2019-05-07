@@ -79,10 +79,12 @@ tags:
 - 验证 `Kubernetes` 是否安装成功
   ![kube system pods](images/k8s-install-kube-system-pods.png)
   > 为什么这么多重启的稍后再说
+
 ### 其他方式安装
 - [在CentOS上安装kubernetes](https://jimmysong.io/kubernetes-handbook/practice/install-kubernetes-on-centos.html)
 - [CentOS 使用二进制部署 Kubernetes 1.13集群](https://www.kubernetes.org.cn/4963.html)
 - [kubespray](https://github.com/kubernetes-sigs/kubespray)
+
 ### Install 安装的一些`坑`[Ubuntu]
 1. 需要注意的是主机`hostname`不能相同
 2. 发现网络插件无限重启那么一般是 `/etc/resolv.conf`文件出现问题
@@ -91,8 +93,10 @@ tags:
 3. `GFW`的问题
    - `Docker`以及`apt`使用代理
    - 下载二进制文件，把对应的镜像转到其他仓库中
+
 ## awesome kubernetes
-https://github.com/ramitsurana/awesome-kubernetes
+[awesome](https://github.com/ramitsurana/awesome-kubernetes)
+
 ## REF
 [Kubernetes 权威指南](https://book.douban.com/subject/26902153/)
 [深入剖析 Kubernetes](https://time.geekbang.org/column/article/39724)
