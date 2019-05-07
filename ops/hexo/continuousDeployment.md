@@ -50,12 +50,13 @@ tags:
     ![jenkins project configure](images/hexo-jenkins-project-configure2.png)
     **注意** 需要确保项目的`Source Code Management.Git.Repositories.Repository URL`和之前在`GitHub`中配置`webhook`的项目一致  
     执行的`shell`文件
+    ![jenkins project configure](images/hexo-jenkins-project-configure3.png)    
       ```
-      npm i 
-      cd them && npm i && cd ../[或者需要配置 git submodule]
       hexo clean && hexo g
       cd source && find . -name "*.png" -o -name "*.jpg"|xargs -i cp {} /${website/blog}/public/images/
       ```
+### 推送代码到master之后，Jenkins会执行相应的构建
+![jenkins github](images/hexo-jenkins-githubpolllog.png)
 ### 可能会遇到的问题
 1. 使用了反向代理会出现 `403 error` 这个需要把`Jenkins`安全中的`CSRF`关闭，或者参考[Jenkins -> 403 No valid crumb was included in the request](https://github.com/spinnaker/spinnaker/issues/2067)。  
    测试：在`Github`的`webhook`中，可以重新发送对应的`HTTP`请求，但是需要注意: 只要**相同的版本**构建了,就不会再次触发构建。
