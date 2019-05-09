@@ -28,6 +28,8 @@ input {
     }
 }
 ```
+<!--more-->
+
 ### File 读取文件
 ```
 input
