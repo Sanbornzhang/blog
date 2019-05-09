@@ -27,9 +27,14 @@ tags:
 1. uuid 优化 [rfc4122](https://tools.ietf.org/html/rfc4122.html)
 2. [慢查询优化] (https://zhangcolin.github.io/2019/03/30/slow-optimization)
 3. [count(*)](https://mp.weixin.qq.com/s?__biz=MzUyNDkzNzczNQ==&mid=2247486233&idx=1&sn=2b248891f259c05cf81d1172b288079c)
+4. [分布式系统：CAP 理论的前世今生](https://blog.xiaohansong.com/cap-theorem.html)
 ## Redis
 1. [寻找热点key](https://mp.weixin.qq.com/s/XO_SxQEppUKsrAMQTxXFwA)
 ## 系统性能
 1. [CPU性能诊断](https://bryantchang.github.io/2019/03/17/cpu-profile-two)
 ## network
 1. [一个TCP能够建立多少个HTTP请求](https://zhuanlan.zhihu.com/p/61423830)
+## istio
+1. [Istio 监控详解](http://www.servicemesher.com/blog/istio-monitoring-explained/)  
+2. [Istio究竟是干嘛的？](https://mp.weixin.qq.com/s/h0NGJ4v6iRicrp6f_5WkwQ)  
+3. [在生产环境运行Istio](https://mp.weixin.qq.com/s/plvD11ogiVyX2RWw8mh6Tw)  
