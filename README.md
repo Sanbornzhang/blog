@@ -1,15 +1,18 @@
 # Blog
+地址为 http://www.sanborn.me
+先占坑慢慢补
 ## 文件列表
 ### OPS
   + [ ] Docker
-    - [ ] Docker的安装以及使用代理
-    - [ ] Docker的使用以及Docker打包优化
+    - [x] Docker的安装
+    - [x] Docker的使用以及Docker打包优化
   + [ ] ELK
-    - [ ] 简单的日志收集
+    - [ ] ELK安装
     - [ ] 简单的日志收集以及展示
+    - [ ] grok 的使用
   - [ ] grafana TODO: 带详细了解
   + [ ] Prometheus
-    - [ ] 监控以及报警配置
+    - [ ] 监控以及报警配置 TODO: 报警 这块还不是很了解
   - [ ] Nginx
     - [ ] 基本配置 反向代理 + 负载均衡
     - [ ] 负载均衡的几种方式
@@ -20,7 +23,20 @@
     + [ ] ulimit
     + [x] tcpdump 
   - [ ] kubernetes
-  - [ ] istio
+    - [x] kubernetes 安装
+    - [x] kubernetes 简单的一些术语
+    - [x] kubernetes Pod
+    - [ ] kubernetes Deployment
+    - [ ] kubernetes Service
+    - [ ] kubernetes HPA
+    - [ ] kubernetes Ingress
+    - [ ] kubernetes Trouble Shooting
+  - [ ] Istio
+    - [ ] Istio 安装
+    - [ ] Istio 简单的使用
+    - [ ] Istio serviceEntry
+    - [ ] Istio gateway
+    - [ ] Istio 金丝雀发布
 ### Nodejs
 - [ ] 基础
   + [x] Promise
@@ -47,14 +63,17 @@
     + [ ] 一些案例 
   + [ ] emqtt
   + [ ] kafka
+  + [ ] gRpc
 ### MySql
 - [x] 索引
+- [ ] 优化方式
 ### 架构
-  - [ ] 自己搭建一个简单的框架
-  - [x] redis相关
+- [x] 设计原则
+- [x] 编程范式
+- [ ] 组件
+- [ ] 自己搭建一个简单的框架
 ### 研发2-3事
 - [x] 短信验证码设计
 - [x] mysql优化相关
 - [x] redis相关
 ### 微服务
-##  
