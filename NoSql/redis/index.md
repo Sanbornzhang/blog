@@ -2,10 +2,8 @@
 title: Redis 数据结构的使用
 date: 2018/10/16
 categories: 
-- linux
 - redis
 tags: 
-- linux
 - redis
 ---
 # Redis 数据结构的使用
