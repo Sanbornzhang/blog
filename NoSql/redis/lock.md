@@ -1,7 +1,7 @@
 ---
 title: 基于 Redis 的分布式锁实现
 date: 2018/12/26
-top: 2
+top: 1
 categories: 
 - redis
 tags: 
