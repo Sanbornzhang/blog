@@ -1,5 +1,6 @@
 ---
 title: 收藏的一些文章[时时更新]
+sticky: 10
 date: 2019/2/25
 categories: 杂项
 tags: 
@@ -24,6 +25,7 @@ tags:
 3. [Promises, Next-Ticks and Immediates— NodeJS Event Loop Part 3](https://jsblog.insiderattack.net/promises-next-ticks-and-immediates-nodejs-event-loop-part-3-9226cbe7a6aa)
 4. [在Javascript中进行面向切面编程](https://zhuanlan.zhihu.com/p/63917897)
 5. [Node.js 12 值得关注的新特性](https://blog.fundebug.com/2019/05/05/nodejs-12-features)
+6. [浅析控制反转](https://mp.weixin.qq.com/s/gb5Y1W4wXMw2gW6rxEn7Sg)
 
 ## Nginx
 1. [我眼中的 Nginx（六）：深入 Nginx/Openresty 服务里的 DNS 解析](https://zhuanlan.zhihu.com/p/64184169)
