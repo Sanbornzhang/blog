@@ -1,0 +1,14 @@
+{
+  "name": "queue-redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "redis.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ioredis": "^4.9.3"
+  }
+}
