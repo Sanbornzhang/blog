@@ -13,12 +13,13 @@ tags:
 1. [Kubernetes DNS优化](https://mp.weixin.qq.com/s/IGrUZLMvK8UppZTqt9bbSA)
 2. [1.14 Release Note](https://mp.weixin.qq.com/s/N6dC1S1Ezhh_-cFIbFScgQ)
 <!--more--> 
-3. [Prometheus 监控框架](https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&mid=2650166781&idx=1&sn=dd6f5ce36e916c4938f78694df5f4a6b&chksm=8ec1c9b4b9b640a2df8535b1dc42e7548c0a3f8ecb585ccb79b0769f8c8ddce0abc73205408b)
+3. [Prometheus 监控框架](https://mp.weixin.qq.com/s?__biz=MzIwNDIzODExOA==&mid=2650166781&idx=1&sn=dd6f5ce36e916c4938f78694df5f4a6b)
 4. [Prometheus 监控部署](https://mp.weixin.qq.com/s/rG1_DqjBjisuhQJNi9U7iA)
 5. [Pod 间实现共享内存的解决方案](https://mp.weixin.qq.com/s/W0FpH61r_HM7t8Xw1_Ex6A)
 6. [优雅的停止pod](https://mp.weixin.qq.com/s/NwJbBLhomaHBhCkIDR1KWA)
 7. [利用Kubernetes优雅地处理HTTP请求](https://mp.weixin.qq.com/s/VtJUDWFqjG0q2oCJYfpkzA)
 8. [Kubernetes 网络故障常见排查方法](https://www.qikqiak.com/post/troubleshooting-k8s-network/)
+9. [Kubernetes 原生 CI/CD 系统 Prow 简介](https://mp.weixin.qq.com/s/qeYRAcDm2ZNmYgcPndAZjQ)
 
 ## Node.js
 1. [docker 打包优化](https://mp.weixin.qq.com/s/G4pX6OwI8muzRtXBxNak8Q)
@@ -27,6 +28,7 @@ tags:
 4. [在Javascript中进行面向切面编程](https://zhuanlan.zhihu.com/p/63917897)
 5. [Node.js 12 值得关注的新特性](https://blog.fundebug.com/2019/05/05/nodejs-12-features)
 6. [浅析控制反转](https://mp.weixin.qq.com/s/gb5Y1W4wXMw2gW6rxEn7Sg)
+7. [浅谈Node.js在携程的应用](https://mp.weixin.qq.com/s/uDwX0iq9RWs1sK1ct0tiCg)
 
 ## Nginx
 1. [我眼中的 Nginx（六）：深入 Nginx/Openresty 服务里的 DNS 解析](https://zhuanlan.zhihu.com/p/64184169)
@@ -37,12 +39,15 @@ tags:
 [浅谈Docker的安全性支持（上篇）](https://mp.weixin.qq.com/s/D0bBZKWExE8V1uhDKmlSuA)
 ## 博客
 1. [伪架构师](https://blog.fleeto.us/)
+2. [freebuf](https://www.freebuf.com/)
+3. [酷壳](https://coolshell.cn)
 ## Mysql
 1. uuid 优化 [rfc4122](https://tools.ietf.org/html/rfc4122.html)
 2. [慢查询优化](https://zhangcolin.github.io/2019/03/30/slow-optimization)
 3. [count(*)](https://mp.weixin.qq.com/s?__biz=MzUyNDkzNzczNQ==&mid=2247486233&idx=1&sn=2b248891f259c05cf81d1172b288079c)
 4. [分布式系统：CAP 理论的前世今生](https://blog.xiaohansong.com/cap-theorem.html)  
 5. [如何正确设置数据库连接池的大小](https://www.exception.site/essay/how-to-set-the-size-of-database-connection-pool)  
+6. [一个真实的现网mySql死锁问题处理](https://mp.weixin.qq.com/s/rLdHuwEb7gKjgpbsh1ioSA) TODO: 细看
 ## Redis
 1. [寻找热点key](https://mp.weixin.qq.com/s/XO_SxQEppUKsrAMQTxXFwA)  
 2. [redis做分布式锁这几个要注意](https://my.oschina.net/u/4052893/blog/3045560)  
@@ -60,3 +65,4 @@ tags:
 ## 杂
 [溯源微服务：企业分布式应用的一次回顾](https://insights.thoughtworks.cn/a-retrospective-for-enterprise-distributing-application/)
 [无我编程的10条诫律](https://mp.weixin.qq.com/s/1ccYgHixRX1-7vOCGun2DA)
+[深度 | API 设计最佳实践的思考](https://mp.weixin.qq.com/s/qWrSyzJ54YEw8sLCxAEKlA) TODO: 细看
