@@ -11,7 +11,9 @@ tags:
 - child_process
 ---
 
-<>
+#  Node.js child_process 源码解析
+TODO:
+<!--more-->
 TODO: fork实际上调用的是 spawn node -e
 ```
 exports.fork = function fork(modulePath /* , args, options */) {
