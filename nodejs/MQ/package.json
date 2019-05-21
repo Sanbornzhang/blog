@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "ioredis": "^4.9.3"
+    "ioredis": "^4.9.3",
+    "kafka-node": "^4.1.3"
   }
 }
