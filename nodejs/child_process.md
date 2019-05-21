@@ -1,7 +1,5 @@
 ---
 title: Node.js child_process 源码解析
-sticky: 10
-top: 100
 date: 2019/2/25
 categories: 
 - Node.js
