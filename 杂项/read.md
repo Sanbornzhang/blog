@@ -29,6 +29,7 @@ tags:
 5. [Node.js 12 值得关注的新特性](https://blog.fundebug.com/2019/05/05/nodejs-12-features)
 6. [浅析控制反转](https://mp.weixin.qq.com/s/gb5Y1W4wXMw2gW6rxEn7Sg)
 7. [浅谈Node.js在携程的应用](https://mp.weixin.qq.com/s/uDwX0iq9RWs1sK1ct0tiCg)
+8. [深入理解 Node.js Stream 内部机制](http://taobaofed.org/blog/2017/08/31/nodejs-stream/)
 
 ## Nginx
 1. [我眼中的 Nginx（六）：深入 Nginx/Openresty 服务里的 DNS 解析](https://zhuanlan.zhihu.com/p/64184169)
