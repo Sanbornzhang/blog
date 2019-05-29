@@ -1,6 +1,7 @@
 ---
 title: LRU 算法
 date: 2018/7/16
+top: 2
 categories: 
 - redis
 - algorithm
