@@ -32,6 +32,8 @@ tags:
 6. [浅析控制反转](https://mp.weixin.qq.com/s/gb5Y1W4wXMw2gW6rxEn7Sg)
 7. [浅谈Node.js在携程的应用](https://mp.weixin.qq.com/s/uDwX0iq9RWs1sK1ct0tiCg)
 8. [深入理解 Node.js Stream 内部机制](http://taobaofed.org/blog/2017/08/31/nodejs-stream/)
+9. [[译]编写优雅的JavaScript代码 - 最佳实践](https://zhuanlan.zhihu.com/p/67437554)
+10. [【JS进阶】你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
 
 ## Nginx
 1. [我眼中的 Nginx（六）：深入 Nginx/Openresty 服务里的 DNS 解析](https://zhuanlan.zhihu.com/p/64184169)
@@ -68,4 +70,5 @@ tags:
 ## 杂
 [溯源微服务：企业分布式应用的一次回顾](https://insights.thoughtworks.cn/a-retrospective-for-enterprise-distributing-application/)
 [无我编程的10条诫律](https://mp.weixin.qq.com/s/1ccYgHixRX1-7vOCGun2DA)
-[深度 | API 设计最佳实践的思考](https://mp.weixin.qq.com/s/qWrSyzJ54YEw8sLCxAEKlA) TODO: 细看
+[深度 | API 设计最佳实践的思考](https://mp.weixin.qq.com/s/qWrSyzJ54YEw8sLCxAEKlA) TODO: 细看  
+[Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)
