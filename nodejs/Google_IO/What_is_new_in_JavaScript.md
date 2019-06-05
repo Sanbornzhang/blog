@@ -20,7 +20,7 @@ tags:
 123n * 1234567890123456789n
 151851850485185185047n
 ```
-
+<!--more-->
 ## String
 ### matchAll
 ![matchAll](images/nodejs-string-matchAll.png)
