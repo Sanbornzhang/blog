@@ -22,6 +22,7 @@ tags:
 7. [利用Kubernetes优雅地处理HTTP请求](https://mp.weixin.qq.com/s/VtJUDWFqjG0q2oCJYfpkzA)
 8. [Kubernetes 网络故障常见排查方法](https://www.qikqiak.com/post/troubleshooting-k8s-network/)
 9. [Kubernetes 原生 CI/CD 系统 Prow 简介](https://mp.weixin.qq.com/s/qeYRAcDm2ZNmYgcPndAZjQ)
+10. [Kubernetes 失败合集](https://k8s.af)
 
 ## Node.js
 1. [docker 打包优化](https://mp.weixin.qq.com/s/G4pX6OwI8muzRtXBxNak8Q)
@@ -34,6 +35,8 @@ tags:
 8. [深入理解 Node.js Stream 内部机制](http://taobaofed.org/blog/2017/08/31/nodejs-stream/)
 9. [[译]编写优雅的JavaScript代码 - 最佳实践](https://zhuanlan.zhihu.com/p/67437554)
 10. [【JS进阶】你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
+11. [深入了解 JavaScript 中的 for 循环](https://juejin.im/entry/5a1654e951882554b8373622)
+12. [iterator](https://wiki.jikexueyuan.com/project/es6/iterator.html)
 
 ## Nginx
 1. [我眼中的 Nginx（六）：深入 Nginx/Openresty 服务里的 DNS 解析](https://zhuanlan.zhihu.com/p/64184169)
@@ -57,6 +60,7 @@ tags:
 1. [寻找热点key](https://mp.weixin.qq.com/s/XO_SxQEppUKsrAMQTxXFwA)  
 2. [redis做分布式锁这几个要注意](https://my.oschina.net/u/4052893/blog/3045560)  
 3. [redis-mindmap](https://github.com/Weiwf/redis-mindmap/blob/master/README.md)
+4. [这可能是最中肯的Redis规范了](https://mp.weixin.qq.com/s/5EH4-isDFxkGAXTWEhrZ-w)
 ## 系统性能
 1. [CPU性能诊断](https://bryantchang.github.io/2019/03/17/cpu-profile-two)  
 ## network
@@ -68,7 +72,9 @@ tags:
 4. [使用Istio打造微服务](https://mp.weixin.qq.com/s/W-F1ETV1H9yBm9sOiCEUSQ)  
 5. [Istio和Linkerd的CPU基准测试报告](https://mp.weixin.qq.com/s/bry4g11lacH1eyuh5uVcHw)  
 ## 杂
-[溯源微服务：企业分布式应用的一次回顾](https://insights.thoughtworks.cn/a-retrospective-for-enterprise-distributing-application/)
-[无我编程的10条诫律](https://mp.weixin.qq.com/s/1ccYgHixRX1-7vOCGun2DA)
+[溯源微服务：企业分布式应用的一次回顾](https://insights.thoughtworks.cn/a-retrospective-for-enterprise-distributing-application/)  
+[无我编程的10条诫律](https://mp.weixin.qq.com/s/1ccYgHixRX1-7vOCGun2DA)  
 [深度 | API 设计最佳实践的思考](https://mp.weixin.qq.com/s/qWrSyzJ54YEw8sLCxAEKlA) TODO: 细看  
-[Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)
+[Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)  
+[Oh shit, git!](http://ohshitgit.com/)  
+[软件的高质量意味着高成本？](https://insights.thoughtworks.cn/is-quality-worth-cost/)
