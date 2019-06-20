@@ -37,6 +37,7 @@ tags:
 10. [【JS进阶】你真的掌握变量和类型了吗](https://mp.weixin.qq.com/s/Z0jnNJlfOrXHdNDb8CM-ng)
 11. [深入了解 JavaScript 中的 for 循环](https://juejin.im/entry/5a1654e951882554b8373622)
 12. [iterator](https://wiki.jikexueyuan.com/project/es6/iterator.html)
+13. [FUNCTIONAL JAVASCRIPT: FIVE WAYS TO CALCULATE AN AVERAGE WITH ARRAY REDUCE](https://jrsinclair.com/articles/2019/five-ways-to-average-with-js-reduce/)
 
 ## Nginx
 1. [我眼中的 Nginx（六）：深入 Nginx/Openresty 服务里的 DNS 解析](https://zhuanlan.zhihu.com/p/64184169)
@@ -71,10 +72,18 @@ tags:
 3. [在生产环境运行Istio](https://mp.weixin.qq.com/s/plvD11ogiVyX2RWw8mh6Tw)  
 4. [使用Istio打造微服务](https://mp.weixin.qq.com/s/W-F1ETV1H9yBm9sOiCEUSQ)  
 5. [Istio和Linkerd的CPU基准测试报告](https://mp.weixin.qq.com/s/bry4g11lacH1eyuh5uVcHw)  
+
+## 
+1. [viewports剖析](https://www.w3cplus.com/css/viewports.html)  
+  有点没看懂。。。
+2. 
+
 ## 杂
-[溯源微服务：企业分布式应用的一次回顾](https://insights.thoughtworks.cn/a-retrospective-for-enterprise-distributing-application/)  
-[无我编程的10条诫律](https://mp.weixin.qq.com/s/1ccYgHixRX1-7vOCGun2DA)  
-[深度 | API 设计最佳实践的思考](https://mp.weixin.qq.com/s/qWrSyzJ54YEw8sLCxAEKlA) TODO: 细看  
-[Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)  
-[Oh shit, git!](http://ohshitgit.com/)  
-[软件的高质量意味着高成本？](https://insights.thoughtworks.cn/is-quality-worth-cost/)
+1. [溯源微服务：企业分布式应用的一次回顾](https://insights.thoughtworks.cn/a-retrospective-for-enterprise-distributing-application/)  
+2. [无我编程的10条诫律](https://mp.weixin.qq.com/s/1ccYgHixRX1-7vOCGun2DA)  
+3. [深度 | API 设计最佳实践的思考](https://mp.weixin.qq.com/s/qWrSyzJ54YEw8sLCxAEKlA) TODO: 细看  
+4. [Salted Password Hashing - Doing it Right](https://crackstation.net/hashing-security.htm)  
+5. [Oh shit, git!](http://ohshitgit.com/)  
+6. [软件的高质量意味着高成本？](https://insights.thoughtworks.cn/is-quality-worth-cost/)  
+7. [API开发中如何使用限速应对大规模访问](https://zhuanlan.zhihu.com/p/49412303)   
+   其实Nginx 也可以对对IP进行限速。 个人觉得在入口设置会更好一些，如果是微服务架构，那么可以考虑在服务治理的时候进行设置(istio中设置)
