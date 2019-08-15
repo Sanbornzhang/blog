@@ -1,3 +1,19 @@
+---
+title: A Tour of the Kubernetes Part One
+date: 2019/8/15
+sticky: 10
+top: 80
+categories: 
+- linux
+- docker
+- Kubernetes
+tags: 
+  - linux 
+  - ops
+  - docker
+  - Kubernetes
+---
+
 # A Tour of the Kubernetes Part One
 ## 在说说 Kubernetes 之前我们先说说
 ### 微服务
@@ -5,7 +21,7 @@
 ---
     "微服务架构是一种架构模式，它提倡将单一应用程序划分成一组小的服务，服务之间相互协调、互相配合，为用户提供最终价值。每个服务运行在其独立的进程中，服务和服务之间采用轻量级的通信机制相互沟通（通常是基于HTTP的Restful API).每个服务都围绕着具体的业务进行构建，并且能够被独立的部署到生产环境、类生产环境等。另外，应尽量避免统一的、集中的服务管理机制，对具体的一个服务而言，应根据业务上下文，选择合适的语言、工具对其进行构"---- Martin Fowler的博客
 REF: [wiki: 微服务](https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9C%8D%E5%8B%99)
-
+<!--more-->
 ### 单体应用
   ![](images/83fe76efa157fa0b26a7b1816a84fdd4.png)
   ![](images/DecomposingApplications.011.jpg)
