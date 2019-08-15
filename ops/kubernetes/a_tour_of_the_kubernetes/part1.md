@@ -70,6 +70,7 @@ REF: [wiki: 微服务](https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9C%8D%E5%8B%99
   一处构建，到处运行。
 - 安全  
   Docker 赋予应用的 **隔离性** 不仅限于彼此隔离，还独立于底层的基础设施。Docker 默认提供最强的隔离，因此应用出现问题，也只是单个容器的问题，而不会波及到整台机器。
+
 ### Docker 解决了什么问题
 不管我们开发了多少个应用程序，或者是以什么样的方式拆分。开发和运维总是要解决的最大的问题就是: `"程序运行环境之间的差异"`。  
 也就是我的电脑上能跑，但是到了生产环境就不行了。  
@@ -102,6 +103,7 @@ Kubernetes 是 Google 开源的容器集群管理系统，是 Google 多年大�
 - 无状态和有状态服务
 - 广泛的volume支持
 - 插件机制保证
+
 ## Kubernetes 解决了什么问题
       Kubernetes是一个开源的Docker容器编排系统，它可以调度计算集群的节点，动态管理上面的作业，保证它们按用户期望的状态运行。  
 1. 使开发者不用担心基础设施
@@ -272,6 +274,7 @@ Kubernetes 是 Google 开源的容器集群管理系统，是 Google 多年大�
           ports:
           - containerPort: 80
   ```
+
 ### StatefulSet
 StatefulSet是为了解决有状态服务的问题（对应Deployments和ReplicaSets是为无状态服务而设计），其应用场景包括：
 
@@ -299,6 +302,7 @@ StatefulSet是为了解决有状态服务的问题（对应Deployments和Replica
         protocol: TCP
         targetPort: 80
   ```
+
 #### Service的功能
 1. 服务发现： 通过 `${service name}`.`${namespace 名称}`.`svc.cluster.local` 访问对应的服务
 2. 负载均衡
@@ -309,6 +313,7 @@ StatefulSet是为了解决有状态服务的问题（对应Deployments和Replica
 
 ##### LoadBalancer
     使用云提供商的负载局衡器，可以向外部暴露服务。外部的负载均衡器可以路由到 NodePort 服务和 ClusterIP 服务。
+
 ##### Ingress
     Ingress 是一种 Kubernetes 资源，它封装了一系列规则和配置，可将外部 HTTP(S) 流量路由到内部服务。
 
@@ -319,11 +324,13 @@ StatefulSet是为了解决有状态服务的问题（对应Deployments和Replica
 
 ### HPA
      Horizontal Pod Autoscaling可以根据CPU利用率自动伸缩一个Replication Controller、Deployment 或者Replica Set中的Pod数量（或者基于一些应用程序提供的度量指标，目前这一功能处于alpha版本）
+
 1. deployment
    ``` bash
    kubectl autoscale deployment php-apache --cpu-percent=50 --min=1 --max=10
    ```
 2. ReplicaSet
+
    ``` yaml
    apiVersion: autoscaling/v1
    kind: HorizontalPodAutoscaler
@@ -341,6 +348,7 @@ StatefulSet是为了解决有状态服务的问题（对应Deployments和Replica
 ## 资源的限制
 ### limitRange
 针对于`Pod|container`的资源限制
+
 ```yaml
 apiVersion: v1
 kind: LimitRange
@@ -354,6 +362,7 @@ spec:
       cpu: 0.5
     type: Container
 ```
+
 > 现在如果在 `default` 命名空间创建一个容器，该容器没有声明自己的 CPU 请求和限制时，将会给它指定默认的 CPU 请求0.5和默认的 CPU 限制值1.
 
 ### resourceQuota
@@ -365,6 +374,7 @@ spec:
 
    --enable-admission-plugins=NamespaceLifecycle,LimitRanger,ResourceQuota
    ```
+
 - 一个`ResourceQuota`的例子:  
 
   ```yaml
@@ -396,6 +406,7 @@ spec:
 2. [awesome-docker](https://github.com/veggiemonk/awesome-docker)
 3. [微服务：从设计到部署](https://github.com/DocsHome/microservices)
 4. [kubernetes 最佳实践](https://medium.com/@sachin.arote1/kubernetes-best-practices-9b1435a4cb53)
+
 ## REF:
 1. [kubernetes](https://kubernetes.io/zh/)
 2. [模式: 单体架构](https://microservices.io/patterns/cn/monolithic.html)
