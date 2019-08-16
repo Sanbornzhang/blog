@@ -66,11 +66,6 @@ REF: [wiki: 微服务](https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9C%8D%E5%8B%99
 * 服务间的调用耗费时间过长
 
 ### Docker
-    微服務的起源是由 Peter Rodgers 博士於 2005 年度雲端運算博覽會提出的微 Web 服務 (Micro-Web-Service) 
-但是为什么到14年才开始全民化呢？  
-2014年发生了什么事情:  [解读 2014 之 Docker 篇：才气、勇气、运气](https://www.infoq.cn/article/2014-review-docker)
-
-  REF:  [维基百科：微服务](https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9C%8D%E5%8B%99)   
 
 #### Docker 的本质
 Docker 实际上是对 Linux `namespace`,`Cgroups`,以及 `rootfs`的一种使用  
@@ -98,7 +93,15 @@ Docker 实际上是对 Linux `namespace`,`Cgroups`,以及 `rootfs`的一种使�
 2. 人员理解的差异： 开发环境可能是由开发人员去维护的，生产环是由运维人员进行维护的。这两组人员对于系统管理环境的理解程度是不同的，这个理解导致两个环境会有较大的差异。  
 
 为了减少仅会在生产环境中出现的问题，最理想的做法是： 让开发阶段和生产阶段运行在完全相同的环境下，它们有**完全相同的** `操作系统`、`库`、`系统配置`、`网络环境`和其他所有条件，这个环境不会随着时间的推移而改变，而且如果在同一台服务器上部署新的应用时，不会影响到现有应用。
+ 
+#### Docker 和 微服务
+    微服務的起源是由 Peter Rodgers 博士於 2005 年度雲端運算博覽會提出的微 Web 服務 (Micro-Web-Service) 
+但是为什么到14年才开始全民化呢？ 因为 14年 Docker 大火 。并且 `Docker` 解决了 微服务部署的一系列难题。
+ 
 
+REF: 
+1. [维基百科：微服务](https://zh.wikipedia.org/wiki/%E5%BE%AE%E6%9C%8D%E5%8B%99)   
+2. [解读 2014 之 Docker 篇：才气、勇气、运气](https://www.infoq.cn/article/2014-review-docker)
 ### Dev OPS 和 No OPS
 #### Dev OPS
       让同 个团队参与应用的开发、部署 、运维的整个生命周期更好,这意味着开发者 QA 和运维团队彼此之间的合作,需要贯穿整个流程.这种实践被称为 Dev Ops。
@@ -427,6 +430,12 @@ spec:
   taint 定义在node上，排斥pod
 - 和 Tolerations :  
   toleration定义在pod中，容忍`Node`的`Taints`
+
+## 总结
+1. 单体服务和微服务架构的优缺点；
+2. 在14年的时候`Docker`开始火了， `Docker` 运维在部署中的难题，实现了简单化标准化，而且相对安全，并且有资源的限制。解决了微服务部署的难题。
+3. `kubernetes` 解决了容器编排以及调度的问题。
+4. 简单的说了一下 `kubernetes` 的一些名词，以及他们的作用。在kubernetes中最重要的其实就是`POD` 其他的都是围绕着 `POD`的一些资源的限制和管理。
 
 ## 资源
 1. [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
