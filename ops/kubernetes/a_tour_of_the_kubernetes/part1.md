@@ -1,5 +1,5 @@
 ---
-title: A Tour of the Kubernetes Part One
+title: A Tour of the Kubernetes Part One: OverView
 date: 2019/8/15
 sticky: 10
 top: 80
@@ -14,7 +14,7 @@ tags:
   - Kubernetes
 ---
 
-# A Tour of the Kubernetes Part One
+# A Tour of the Kubernetes Part One: OverView
 ## 在说说 Kubernetes 之前我们先说说
 ### 微服务
     "微服务 (Microservices) 是一种软件架构风格，它是以专注于单一职责功能的小型功能模块 (Small Building Blocks) 为基础，利用模块化的方式组合出复杂的大型应用系统，各功能自建使用和语言无关 (Language-Independent/Language agnostic) 的 API 集相互通訊。" --- wiki  
@@ -358,7 +358,7 @@ spec:
   limits:
   - default:
       cpu: 1
-    defaultRequest:
+    defaultRequest:****
       cpu: 0.5
     type: Container
 ```
