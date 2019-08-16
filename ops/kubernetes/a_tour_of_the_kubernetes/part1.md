@@ -426,7 +426,7 @@ spec:
 - Taints:  
   taint 定义在node上，排斥pod
 - 和 Tolerations :  
-  toleration定义在pod中，容忍pod
+  toleration定义在pod中，容忍`Node`的`Taints`
 
 ## 资源
 1. [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes)
