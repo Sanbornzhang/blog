@@ -38,6 +38,9 @@ tags:
 11. [深入了解 JavaScript 中的 for 循环](https://juejin.im/entry/5a1654e951882554b8373622)
 12. [iterator](https://wiki.jikexueyuan.com/project/es6/iterator.html)
 13. [FUNCTIONAL JAVASCRIPT: FIVE WAYS TO CALCULATE AN AVERAGE WITH ARRAY REDUCE](https://jrsinclair.com/articles/2019/five-ways-to-average-with-js-reduce/)
+14. [Node.js：浅析高并发与分布式集群](https://zhuanlan.zhihu.com/p/41118827)
+15. [JavaScript九大面试问题集锦，助你顺利通关！](https://mp.weixin.qq.com/s/pU_mpo5p4FGL4CQzFL91hw)
+16. [JavaScript深入浅出第4课：V8引擎是如何工作的？](https://blog.fundebug.com/2019/07/16/how-does-v8-work/)
 
 ## Nginx
 1. [我眼中的 Nginx（六）：深入 Nginx/Openresty 服务里的 DNS 解析](https://zhuanlan.zhihu.com/p/64184169)
@@ -87,3 +90,5 @@ tags:
 6. [软件的高质量意味着高成本？](https://insights.thoughtworks.cn/is-quality-worth-cost/)  
 7. [API开发中如何使用限速应对大规模访问](https://zhuanlan.zhihu.com/p/49412303)   
    其实Nginx 也可以对对IP进行限速。 个人觉得在入口设置会更好一些，如果是微服务架构，那么可以考虑在服务治理的时候进行设置(istio中设置)
+8. [如何做一个小型公司的技术总监](https://mp.weixin.qq.com/s/QXYi1KLhKcz1hPcJbIMEaA) 很到位了
+9. [VSCode 快捷键](https://segmentfault.com/a/1190000019821154)
