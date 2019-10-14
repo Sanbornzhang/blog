@@ -23,6 +23,8 @@ tags:
 8. [Kubernetes 网络故障常见排查方法](https://www.qikqiak.com/post/troubleshooting-k8s-network/)
 9. [Kubernetes 原生 CI/CD 系统 Prow 简介](https://mp.weixin.qq.com/s/qeYRAcDm2ZNmYgcPndAZjQ)
 10. [Kubernetes 失败合集](https://k8s.af)
+11. [技术分享之service-mesh-k8sistio的那些事儿](http://xiaorui.cc/2019/08/24/技术分享之service-mesh-k8sistio的那些事儿)
+12. [Kubernetes 权限](https://mp.weixin.qq.com/s/QKVjbGQhfsB1MvVkYgW4ww)
 
 ## Node.js
 1. [docker 打包优化](https://mp.weixin.qq.com/s/G4pX6OwI8muzRtXBxNak8Q)
@@ -65,6 +67,7 @@ tags:
 2. [redis做分布式锁这几个要注意](https://my.oschina.net/u/4052893/blog/3045560)  
 3. [redis-mindmap](https://github.com/Weiwf/redis-mindmap/blob/master/README.md)
 4. [这可能是最中肯的Redis规范了](https://mp.weixin.qq.com/s/5EH4-isDFxkGAXTWEhrZ-w)
+5. [缓存世界中的三大问题及解决方案](https://mp.weixin.qq.com/s/uJJKcJsdokDR33pzgGsafw)
 ## 系统性能
 1. [CPU性能诊断](https://bryantchang.github.io/2019/03/17/cpu-profile-two)  
 ## network
@@ -92,3 +95,5 @@ tags:
    其实Nginx 也可以对对IP进行限速。 个人觉得在入口设置会更好一些，如果是微服务架构，那么可以考虑在服务治理的时候进行设置(istio中设置)
 8. [如何做一个小型公司的技术总监](https://mp.weixin.qq.com/s/QXYi1KLhKcz1hPcJbIMEaA) 很到位了
 9. [VSCode 快捷键](https://segmentfault.com/a/1190000019821154)
+10. [99%的用户故事，写的都是渣](https://mp.weixin.qq.com/s?__biz=MzIyMDQ0MjkyNQ==&mid=2247484320&idx=1&sn=400745bd97e3bcda9b2726876b28cf90&chksm=97cabbe2a0bd32f499bae3da8f1791a8dfa7d76f748b81773cf14a6e280fe2455b5b6f777ac2)
+11. [使用摄像头将你的屏幕变为触摸屏](https://mp.weixin.qq.com/s/NUlFabqDMlxfKKUl8E4wdA)
